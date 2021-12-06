@@ -2,5 +2,6 @@ package com.example.simplelogin.View
 
 interface ILoginView {
 
-    fun onLoginResult(message : String)
+    fun onLoginSuccess(message : String)
+    fun onLoginError(message: String)
 }
